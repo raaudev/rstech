@@ -16,7 +16,7 @@
 <script type="text/javascript">
     (function() {
         emailjs.init({
-            publicKey: "YOUR_PUBLIC_KEY",
+            publicKey: "Iz10GbUpuqkc7h9R",
         });
     })();
 </script>
@@ -281,7 +281,7 @@
     window.onload = function() {
         document.getElementById('formulario').addEventListener('submit', function(event) {
             event.preventDefault();
-            emailjs.sendForm('contact_service', 'contact_form', this)
+            emailjs.sendForm('service_ry16ecl', 'formulario', this)
                 .then(() => {
                     console.log('SUCCESS!');
                 }, (error) => {
