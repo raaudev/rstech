@@ -283,9 +283,9 @@
             event.preventDefault();
             emailjs.sendForm('service_ry16ecl', 'formulario', this)
                 .then(() => {
-                    console.log('SUCCESS!');
+                    alert('SUCCESS!');
                 }, (error) => {
-                    console.log('FAILED...', error);
+                    alert('FAILED...', error);
                 });
         });
     }
