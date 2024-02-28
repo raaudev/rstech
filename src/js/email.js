@@ -6,7 +6,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     const telefone = document.getElementById('telefone').value;
     const mensagem = document.getElementById('mensagem').value;
 
-    emailjs.send("gmail", "template_xkiwb58", {
+    emailjs.send("service_ry16ecl", "template_xkiwb58", {
         nome: nome,
         email: email,
         telefone: telefone,
