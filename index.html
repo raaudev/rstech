@@ -281,7 +281,7 @@
     window.onload = function() {
         document.getElementById('formulario').addEventListener('submit', function(event) {
             event.preventDefault();
-            emailjs.sendForm('service_ry16ecl', 'template_xkiwb58', this)
+            emailjs.send('service_ry16ecl', 'template_xkiwb58', this)
                 .then(() => {
                     alert('SUCCESS!');
                 }, (error) => {
