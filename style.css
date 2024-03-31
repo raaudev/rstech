@@ -254,7 +254,7 @@ section.topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 40px;
 }
 
 #particles-js{
@@ -281,7 +281,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: var(--cor3);
     font-size: 42px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .topo-do-site .txt-topo-site h1 span{
