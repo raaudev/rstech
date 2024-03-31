@@ -248,19 +248,19 @@ header nav.menu-desktop ul li{
 section.topo-do-site{
     padding: 40px 4%;
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 5px;    
 }
 
 #particles-js{
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   left: 0;
   top: 0;
 }
@@ -268,7 +268,6 @@ section.topo-do-site .flex{
 .txt-topo-site, .img-topo-site {
     position: relative;
     z-index: 1;
-    margin: 200px 4%;
 }
 
 .img-topo-site {
@@ -290,7 +289,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .txt-topo-site p{
     color: var(--cor3);
-    margin: 40px 0;
+    margin: 30px 0;
     text-align: justify;
     font-size: 20px;
 }
@@ -311,7 +310,7 @@ section.topo-do-site .flex{
         top: 0;
     }
     100%{
-        top: 30px;
+        top: 20px;
     }
 }
 
@@ -696,7 +695,9 @@ footer .line-footer p{
     
     .btn-voltar-topo{
         right: 20px;
+        bottom: 80px;
         font-size: 16px;
+               
     }
     
 }
