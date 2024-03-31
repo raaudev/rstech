@@ -254,7 +254,7 @@ section.topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 5px;    
+    gap: 20px;    
 }
 
 #particles-js{
